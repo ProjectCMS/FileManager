@@ -1,0 +1,9 @@
+{
+    "1": "node_modules/jquery/dist/jquery.min.js",
+    "2": "node_modules/popper.js/dist/umd/popper.min.js",
+    "3": "node_modules/bootstrap/dist/js/bootstrap.min.js",
+    "4": "node_modules/jquery-expander/jquery.expander.min.js",
+    "5": "node_modules/dropzone/dist/min/dropzone.min.js",
+    "6": "node_modules/pace-progress/pace.min.js",
+    "7": "node_modules/js-cookie/src/js.cookie.js"
+}

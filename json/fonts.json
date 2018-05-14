@@ -1,0 +1,6 @@
+{
+    "1": "src/fonts/*",
+    "2": "src/fonts/**/*",
+    "3": "node_modules/font-awesome/fonts/*",
+    "4": "node_modules/lightgallery/dist/fonts/*"
+}

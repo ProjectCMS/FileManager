@@ -1,0 +1,51 @@
+$size: 25px;
+.uploading {
+    h3 {
+        text-transform: uppercase;
+        font-weight:    600;
+        color:          #3C3C3C;
+        margin:         0;
+        margin-bottom:  5px;
+        @include rem(font-size, 9px);
+        span {
+            position:    relative;
+            top:         -8px;
+            margin-left: 3px;
+        }
+    }
+
+    .progress {
+        margin-bottom: 5px;
+        height:        10px;
+    }
+
+    .infos {
+        color: #7A878E;
+        @include rem(font-size, 9px);
+        span {
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.spinner {
+    width:         $size;
+    height:        $size;
+
+    border:        2px solid #F3F3F3;
+    border-top:    2px solid #3C3C3C;
+    border-radius: 100%;
+    display:       inline-block;
+
+    animation:     spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "filemanager",
+  "version": "1.0.0",
+  "description": "File Manager",
+  "author": "Michel Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "dropzone": "^5.4.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "js-cookie": "^2.2.0",
+    "pace-progress": "^1.0.2",
+    "popper.js": "^1.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.2.0",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "jquery-expander": "^1.7.0",
+    "jshint": "^2.9.5",
+    "run-sequence": "^2.2.0",
+    "typescript": "^2.6.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}

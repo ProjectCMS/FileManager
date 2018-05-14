@@ -1,0 +1,32 @@
+$colors: (
+             default: #95A5A6,
+             primary: #2C3E50,
+             secondary: #95A5A6,
+             warning: #F39C12,
+             success: #18BC9C,
+             info: #3498DB,
+             danger: #E74C3C,
+             puse: #FFD5E0,
+             alert: #B76BF0,
+             matriz: #7386D5,
+             light: #F8F8F8,
+             bg: #7a878e,
+             facebook: #4264A6,
+             twitter: #009EED,
+             linkedin: #0079B2,
+             googlep: #F83E1D,
+             pinterest: #D3242E,
+             whatsapp: #29A71A,
+             instagram: #517FA4
+         );
+
+$theme-colors: $colors;
+$enable-shadows: false;
+$enable-rounded: false;
+$border-radius-base: 0;
+
+$brand-primary:         map-get($colors, primary) !default; // #337ab7
+$brand-success:         map-get($colors, success) !default;
+$brand-info:            map-get($colors, info) !default;
+$brand-warning:         map-get($colors, warning) !default;
+$brand-danger:          map-get($colors, danger) !default;

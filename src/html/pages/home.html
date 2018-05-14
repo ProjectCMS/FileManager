@@ -1,0 +1,114 @@
+<!-- @@master  = ../master.html-->
+
+<!-- @@block  =  content-->
+
+<div class="filemanager">
+
+    <div class="sidebar">
+
+        <div class="upload">
+            <div class="btn btn-info btn-block btn-upload"><i class="fa fa-upload"></i> Upload files</div>
+            <div class="uploading text-center d-none">
+                <h3>
+                    <div class="spinner"></div>
+                    <span>Uploading</span>
+                </h3>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="infos">
+                    <span class="size">0 MB</span>
+                    <b>de</b>
+                    <span class="total">0 MB</span>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+            <span>Folders</span>
+            <ul class="list-unstyled">
+                <li><a href="" class="back">...</a></li>
+                <li><a href="" class="active">Documents</a></li>
+                <li><a href="">Favorites</a></li>
+                <li><a href="">Data</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="content" data-toolbar="true">
+        <div class="header">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Link</li>
+                </ol>
+            </nav>
+
+            <div class="header-icons">
+                <div class="group">
+                    <a href="" class="fi flaticon-home" data-tooltip data-placement="top" title="Home"></a>
+                    <a href="" class="fi flaticon-folder-add" data-tooltip data-placement="top" title="Nova pasta"></a>
+                    <a href="#" class="fi flaticon-interface set-view" data-tooltip data-placement="top" title="Lista" data-view="list"></a>
+                    <a href="#" class="fi flaticon-shapes set-view" data-tooltip data-placement="top" title="Box" data-view="box"></a>
+                </div>
+
+                <div class="group group-right">
+                    <a href="" class="fi flaticon-download" data-tooltip data-placement="top" title="Download"></a>
+                    <a href="" class="fi flaticon-trash" data-tooltip data-placement="top" title="Deletar"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-item" data-view data-columns="8">
+
+            <div class="item" data-type="folder-up">
+                <div class="preview">
+                    <label for="checkboxs1">
+                        <div class="check">
+                            <div class="ui-input ui-bg ui-info">
+                                <input id="checkboxs1" type="checkbox" class="check-item"><span></span>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <div class="icon-content"><div class="icon"></div></div>
+                            <a href="#" class="name">...</a>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="item" data-type="folder">
+                <div class="preview">
+                    <label for="checkboxs1">
+                        <div class="check">
+                            <div class="ui-input ui-bg ui-info">
+                                <input id="checkboxs1" type="checkbox" class="check-item"><span></span>
+                            </div>
+                        </div>
+                        <figure>
+                            <img src="http://mamaebebe.l.test/storage/images/2018/03/crianca1.jpg" alt="" data-orientation='landscape'>
+                        </figure>
+                        <div class="details">
+                            <div class="icon-content">
+                                <div class="icon"></div>
+                            </div>
+                            <a href="#" class="name">Package.zip</a>
+                            <div class="infos">Created 3 weeks ago | 125 MB</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="toolbar text-right">
+            <button class="btn btn-info" id="insert-item" disabled><i class="fa fa-plus"></i> Inserir no post
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- @@close-->

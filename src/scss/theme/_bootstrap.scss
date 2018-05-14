@@ -1,0 +1,95 @@
+//** Form control **//
+.form-group {
+
+    font-family: 'Open Sans', cursive;
+
+    label {
+        color:          lighten(color('bg'), 30%);
+        text-transform: uppercase;
+        font-weight:    700;
+        @include rem(font-size, 10px);
+    }
+
+    .form-control {
+        box-shadow: none;
+        color:      color('bg');
+        padding: 13px;
+        border: {
+            color: #DEE9EE;
+            width: 2px;
+        }
+        &:hover, &:focus {
+            border-color: #ABC7D5;
+        }
+        @include rem(font-size, 10px);
+
+        &::placeholder,
+        &::-webkit-input-placeholder,
+        &::-moz-placeholder,
+        &:-ms-input-placeholder,
+        &:-moz-placeholder {
+            color: lighten(color('bg'), 40%) !important;
+        }
+
+    }
+
+    textarea {
+        resize: vertical;
+    }
+}
+
+//** Button **//
+.btn {
+    border-radius: 0;
+    @include text-shadow(0 1px 2px rgba(0, 0, 0, .2));
+    @include rem(font-size, 11px);
+
+    &:disabled {
+        cursor:           not-allowed;
+        background-color: #AEB5BF;
+        border-color:     darken(#AEB5BF, 2%);
+        @include box-shadow(0 24px 46px -16px rgba(#AEB5BF, .9) !important);
+    }
+
+}
+
+//** progress bar **//
+.progress-bar {
+    box-shadow: none;
+    @each $name, $color in $colors {
+        &.progress-bar-#{$name} {
+            background-color: $color;
+        }
+    }
+}
+
+//** Modal **//
+.modal-content {
+    @include border-radius(0);
+}
+
+.modal-header {
+    border-color: #F9F9F9;
+    text-align:   center;
+    padding:      20px;
+    h4 {
+        color:          color('bg');
+        font-weight:    600;
+        text-transform: uppercase;
+        @include rem(font-size, 11px);
+    }
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-footer-justified {
+    .btn {
+        padding:        15px 10px;
+        font-weight:    600;
+        text-transform: uppercase;
+        @include rem(font-size, 10px);
+    }
+}
+

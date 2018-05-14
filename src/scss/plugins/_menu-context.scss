@@ -1,0 +1,48 @@
+$context: 38px;
+
+.bootstrapMenu {
+
+    .dropdown-menu {
+        margin:    0;
+        padding:   0;
+        border:    0;
+        min-width: 200px;
+        max-width: 250px;
+        @include border-radius(0);
+        @include box-shadow(0 1px 2px rgba(0, 0, 0, .1));
+
+        li a {
+            padding:      0;
+            height:       $context;
+            line-height:  $context;
+            padding-left: $context;
+            color:        #969599;
+            font-weight:  100;
+            font-size:    14px;
+            position:     relative;
+            font-weight:  100;
+            font-size:    12px;
+
+            i {
+                position:    absolute;
+                top:         0;
+                left:        0;
+                width:       $context;
+                height:      $context;
+                line-height: $context;
+                font-size:   14px;
+                color:       #666;
+            }
+
+            &:hover {
+                background-color: color(info);
+                color:            #FFF;
+            }
+            &:hover i {
+                color: #FFF;
+            }
+        }
+
+    }
+
+}
